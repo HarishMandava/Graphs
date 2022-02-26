@@ -14,6 +14,7 @@ public class Main {
         System.out.println(uf.find(1, 5)); // true
         System.out.println(uf.find(5, 7)); // true
         System.out.println(uf.find(4, 9)); // false
+        System.out.println();
         // 1-2-5-6-7 3-8-9-4
         uf.union(9, 4);
         System.out.println(uf.find(4, 9)); // true
